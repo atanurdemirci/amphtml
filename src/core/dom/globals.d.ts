@@ -18,11 +18,11 @@ declare global {
   }
 
   interface ShadowRoot {
-    adoptedStyleSheets?: CSSStyleSheet[];
+    adoptedStyleSheets: CSSStyleSheet[];
   }
 
   interface CSSStyleSheet {
-    replaceSync?: (text: string) => void;
+    replaceSync: (text: string) => void;
   }
 
   interface Event {
